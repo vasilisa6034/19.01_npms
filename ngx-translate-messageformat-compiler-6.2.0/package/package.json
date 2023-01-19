@@ -1,0 +1,55 @@
+{
+  "name": "ngx-translate-messageformat-compiler",
+  "version": "6.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lephyrus/ngx-translate-messageformat-compiler.git"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "declension",
+    "i18n",
+    "icu",
+    "gender",
+    "messageformat",
+    "ngx-translate",
+    "pluralization",
+    "translate"
+  ],
+  "author": "Lukas Rieder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lephyrus/ngx-translate-messageformat-compiler/issues"
+  },
+  "homepage": "https://github.com/lephyrus/ngx-translate-messageformat-compiler#readme",
+  "dependencies": {
+    "tslib": "^2.4.1"
+  },
+  "peerDependencies": {
+    "@angular/core": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@messageformat/core": "^3.0.0",
+    "@ngx-translate/core": "^14.0.0"
+  },
+  "packageManager": "yarn@3.3.0",
+  "module": "fesm2015/ngx-translate-messageformat-compiler.mjs",
+  "es2020": "fesm2020/ngx-translate-messageformat-compiler.mjs",
+  "esm2020": "esm2020/ngx-translate-messageformat-compiler.mjs",
+  "fesm2020": "fesm2020/ngx-translate-messageformat-compiler.mjs",
+  "fesm2015": "fesm2015/ngx-translate-messageformat-compiler.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-translate-messageformat-compiler.mjs",
+      "es2020": "./fesm2020/ngx-translate-messageformat-compiler.mjs",
+      "es2015": "./fesm2015/ngx-translate-messageformat-compiler.mjs",
+      "node": "./fesm2015/ngx-translate-messageformat-compiler.mjs",
+      "default": "./fesm2020/ngx-translate-messageformat-compiler.mjs"
+    }
+  },
+  "sideEffects": false
+}
